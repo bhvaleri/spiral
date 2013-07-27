@@ -1,0 +1,19 @@
+#grid {
+  padding: 0;
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+  list-style: none;
+}
+
+.tile {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  //box-shadow: inset 0 0 1px black;
+}
+
+.selected {
+  background-color: red;
+}
